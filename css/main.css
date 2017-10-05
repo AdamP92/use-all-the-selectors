@@ -1,43 +1,71 @@
 body {
   background-color: #fdf6e3;
 }
+
 header, footer {
   font-size: 1.5rem;
 }
+
 nav ul {
   font-family: sans-serif;
 }
+
 .logo {
   text-transform: uppercase;
 }
+
 .wrapper {
   background-color: #eee8d5;
 }
+
 #content, #favs, #facts, #types {
   color: #93a1a1;
 }
+
 .wrapper .dfn {
   background-color: #b58900;
 }
+
 .dfn + strong:nth-child(2) {
   color: #fff;
 }
-/*step 9 here*/
+
+nav ul li:first-child{
+  background-color: #719e07;
+}
+
+nav ul li:nth-child(3) {
+  background-color: #719e07;
+}
+
+nav ul li:last-child {
+  background-color: #719e07;
+}
+
+h2 ul li:first-child {
+  background-color: #719e07;
+}
+
 h2 ul li:last-child {
   background-color: #2694d8;
 }
+
 ol li:first-child {
   color: #719e47;
 }
+
 ol li:last-child {
   color: #2aa198;
 }
+
 .types li:nth-child(odd) {
   background-color: #657ba3;
 }
+
 .types li:nth-child(even) {
   background-color: #586e75;
 }
+
 .types li:nth-child(3) {
   background-color: #d04b16;
 }
